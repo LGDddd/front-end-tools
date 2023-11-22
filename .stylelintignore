@@ -34,3 +34,5 @@ dist
 .histroy
 public
 lib
+es
+packages/components/types

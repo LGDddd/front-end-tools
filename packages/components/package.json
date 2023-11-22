@@ -1,14 +1,29 @@
 {
     "name": "@lgd/components",
+    "type": "module",
     "version": "1.0.0",
     "private": false,
+    "author": "",
+    "license": "ISC",
+    "keywords": [],
+    "main": "lib",
+    "module": "es",
+    "types": "types/index.d.ts",
+    "files": [
+        "es",
+        "lib",
+        "types",
+        "global.d.ts"
+    ],
     "scripts": {
-        "build": "run-p type-check \"build-only {@}\" --",
-        "test": "vitest",
-        "build-only": "vite build",
-        "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
+        "build": "gulp -f build/gulpfile.js",
+        "test": "vitest"
     },
-    "peerDependencies": {},
+    "peerDependencies": {
+        "@element-plus/icons-vue": "^2.1.0",
+        "element-plus": "^2.4.2",
+        "vue": "^3.3.4"
+    },
     "dependencies": {},
     "devDependencies": {}
 }
