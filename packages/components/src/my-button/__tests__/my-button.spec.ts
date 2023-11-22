@@ -5,6 +5,6 @@ import Comp from '../index.vue'
 describe('my-button', () => {
     it('renders properly', () => {
         const wrapper = mount(Comp)
-        expect(wrapper.text()).toContain('ok')
+        expect(wrapper.text()).toContain('my-button')
     })
 })

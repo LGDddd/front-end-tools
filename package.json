@@ -7,7 +7,11 @@
         "lint:stylelint": "stylelint ./**/*.{vue,css,scss,sass,html} --fix",
         "prepare": "husky install",
         "cz": "npx cz",
-        "dev:play": "pnpm run --filter ./packages/play dev"
+
+        "dev:play": "pnpm run --filter ./packages/play dev",
+
+        "build:components": "pnpm run --filter ./packages/components build",
+        "test:components": "pnpm run --filter ./packages/components test"
     },
     "dependencies": {
         "@element-plus/icons-vue": "^2.1.0",
@@ -39,6 +43,7 @@
         "jsdom": "^22.1.0",
         "lint-staged": "^15.1.0",
         "npm-run-all2": "^6.1.1",
+        "sass": "^1.69.5",
         "stylelint": "^15.11.0",
         "stylelint-config-recommended-vue": "^1.5.0",
         "stylelint-config-standard": "^34.0.0",
