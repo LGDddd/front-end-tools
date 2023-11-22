@@ -12,8 +12,7 @@
     "files": [
         "es",
         "lib",
-        "types",
-        "global.d.ts"
+        "types"
     ],
     "scripts": {
         "build": "gulp -f build/gulpfile.js",
