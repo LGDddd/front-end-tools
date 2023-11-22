@@ -35,4 +35,5 @@ dist
 public
 lib
 es
+umd
 packages/components/types

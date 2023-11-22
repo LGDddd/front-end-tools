@@ -16,6 +16,7 @@ export async function removeDist() {
     shell.rm('-rf', `${componentPath}/lib`)
     shell.rm('-rf', `${componentPath}/es`)
     shell.rm('-rf', `${componentPath}/types`)
+    shell.rm('-rf', `${componentPath}/umd`)
 }
 
 // 构建所有的css在一个文件中
@@ -27,6 +28,7 @@ export function buildRootStyle() {
         )
         .pipe(dest(`${componentPath}/es`))
         .pipe(dest(`${componentPath}/lib`))
+        .pipe(dest(`${componentPath}/umd`))
 }
 
 // 构建每个组件下单独的css

@@ -29,4 +29,5 @@ coverage
 
 es
 lib
+umd
 packages/components/types
