@@ -1,0 +1,13 @@
+{
+    "name": "@lgd/play",
+    "version": "0.0.1",
+    "private": false,
+    "scripts": {
+        "dev": "vite --host",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@lgd/components": "workspace:^1.0.0"
+    },
+    "devDependencies": {}
+}
