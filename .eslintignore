@@ -37,3 +37,8 @@ lib
 es
 umd
 packages/components/types
+
+packages/components/es
+packages/components/lib
+packages/components/umd
+packages/components/types

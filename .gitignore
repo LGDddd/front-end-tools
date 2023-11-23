@@ -27,7 +27,7 @@ coverage
 *.sln
 *.sw?
 
-es
-lib
-umd
+packages/components/es
+packages/components/lib
+packages/components/umd
 packages/components/types

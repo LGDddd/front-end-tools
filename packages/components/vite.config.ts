@@ -36,6 +36,18 @@ export default defineConfig({
                     preserveModulesRoot: 'src',
                     exports: 'named',
                 },
+                // {
+                //     format: 'umd',
+                //     exports: 'named',
+                //     name: 'LgdComponents',
+                //     entryFileNames: '[name].js',
+                //     preserveModules: false,
+                //     globals: {
+                //         'vue': 'Vue',
+                //         'element-plus': 'ElementPlus',
+                //         '@element-plus/icons-vue': 'ElementPlusIconsVue',
+                //     },
+                // },
             ],
         },
         lib: {

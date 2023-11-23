@@ -6,16 +6,12 @@
         "jsx": "preserve",
         "useDefineForClassFields": true,
         "module": "ESNext",
-
-        /* Bundler mode */
         "moduleResolution": "bundler",
-
         "baseUrl": ".",
         "allowImportingTsExtensions": true,
         "resolveJsonModule": true,
         "noEmit": true,
         "isolatedModules": true,
-        /* Linting */
         "strict": true,
         "noFallthroughCasesInSwitch": true,
         "noUnusedLocals": true,

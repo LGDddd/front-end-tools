@@ -10,5 +10,7 @@ module.exports = {
         'curly': 'off',
         // vue
         'vue/block-order': 'off',
+        // antfu
+        'antfu/top-level-function': 'off',
     },
 }
