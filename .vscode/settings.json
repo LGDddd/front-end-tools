@@ -1,0 +1,30 @@
+{
+    "prettier.enable": false,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "stylelint.validate": [
+        "css",
+        "scss",
+        "sass",
+        "less",
+        "vue",
+        "html"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "html",
+        "markdown",
+        "json",
+        "jsonc",
+        "yaml"
+    ],
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+}
