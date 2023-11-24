@@ -3,16 +3,19 @@
     "type": "module",
     "version": "1.0.0",
     "private": false,
-    "author": "",
-    "license": "ISC",
-    "keywords": [],
-    "main": "lib",
-    "module": "es",
+    "author": "liguodi",
+    "license": "MIT",
+    "keywords": [
+        "基于element-plus二次开发组件库"
+    ],
+    "main": "lib/index.js",
+    "module": "es/index.js",
     "types": "types/index.d.ts",
     "files": [
         "es",
         "lib",
-        "types"
+        "types",
+        "umd"
     ],
     "scripts": {
         "build": "gulp -f build/gulpfile.js",
