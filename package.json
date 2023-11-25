@@ -8,8 +8,8 @@
         "prepare": "husky install",
         "cz": "npx cz",
         "dev:play": "pnpm run --filter ./packages/play dev",
-        "build:components": "pnpm run --filter ./packages/components build",
         "test:components": "pnpm run --filter ./packages/components test",
+        "build:components": "pnpm run --filter ./packages/components build",
         "publish:components": "pnpm run --filter ./packages/components release"
     },
     "dependencies": {

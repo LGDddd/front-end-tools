@@ -8,3 +8,10 @@ describe('my-button', () => {
         expect(wrapper.text()).toContain('my-button')
     })
 })
+
+describe('my-button', () => {
+    it('renders properly', () => {
+        const wrapper = mount(Comp)
+        expect(wrapper.text()).toContain('your-button')
+    })
+})

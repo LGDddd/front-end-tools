@@ -3,6 +3,9 @@
         <button class="ok" :disabled="disabled">
             my-button
         </button>
+        <button class="ok">
+            your-button
+        </button>
     </div>
 </template>
 
