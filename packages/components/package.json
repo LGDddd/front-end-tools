@@ -19,7 +19,8 @@
     ],
     "scripts": {
         "build": "gulp -f build/gulpfile.js",
-        "test": "vitest"
+        "test": "vitest",
+        "release": "release-it"
     },
     "peerDependencies": {
         "@element-plus/icons-vue": "^2.1.0",

@@ -9,7 +9,8 @@
         "cz": "npx cz",
         "dev:play": "pnpm run --filter ./packages/play dev",
         "build:components": "pnpm run --filter ./packages/components build",
-        "test:components": "pnpm run --filter ./packages/components test"
+        "test:components": "pnpm run --filter ./packages/components test",
+        "publish:components": "pnpm run --filter ./packages/components release"
     },
     "dependencies": {
         "@element-plus/icons-vue": "^2.1.0",
@@ -24,6 +25,7 @@
         "@antfu/eslint-config": "^0.43.1",
         "@commitlint/cli": "^18.4.3",
         "@commitlint/config-conventional": "^18.4.3",
+        "@release-it/conventional-changelog": "^8.0.1",
         "@rushstack/eslint-patch": "^1.3.3",
         "@tsconfig/node18": "^18.2.2",
         "@types/jsdom": "^21.1.3",
@@ -44,6 +46,7 @@
         "jsdom": "^22.1.0",
         "lint-staged": "^15.1.0",
         "npm-run-all2": "^6.1.1",
+        "release-it": "^17.0.0",
         "sass": "^1.69.5",
         "shelljs": "^0.8.5",
         "stylelint": "^15.11.0",
