@@ -5,6 +5,7 @@
     "git": {
         "commitMessage": "chore: v${version}",
         "commit": true,
+        "tag": true,
         "push": false
     },
     "npm": {
