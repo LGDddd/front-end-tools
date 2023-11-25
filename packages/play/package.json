@@ -1,12 +1,12 @@
 {
-    "name": "@lgd/play",
+    "name": "@lgd_org/play",
     "version": "0.0.1",
     "private": false,
     "scripts": {
         "dev": "vite --host"
     },
     "dependencies": {
-        "@lgd/components": "workspace:^1.0.0"
+        "@lgd_org/components": "workspace:^1.0.0"
     },
     "devDependencies": {}
 }

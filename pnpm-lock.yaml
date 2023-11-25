@@ -159,7 +159,7 @@ importers:
 
   packages/play:
     dependencies:
-      '@lgd/components':
+      '@lgd_org/components':
         specifier: workspace:^1.0.0
         version: link:../components
 

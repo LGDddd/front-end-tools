@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import '@lgd/components/es/index.css'
+import '@lgd_org/components/es/index.css'
 
 const app = createApp(App)
 app.mount('#app')

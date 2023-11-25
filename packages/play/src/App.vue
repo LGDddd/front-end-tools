@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import { MyButton, type MyButtonInstance } from '@lgd/components'
+import { MyButton, type MyButtonInstance } from '@lgd_org/components'
 
 const ok = ref<MyButtonInstance>()
 
