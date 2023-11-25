@@ -3,7 +3,10 @@
         "release": false
     },
     "git": {
-        "commitMessage": "release: v${version}"
+        "commitMessage": "release: v${version}",
+        "commit": true,
+        "tag": true,
+        "push": true
     },
     "npm": {
         "publish": true
