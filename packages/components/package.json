@@ -28,5 +28,8 @@
         "vue": "^3.3.4"
     },
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {},
+    "publishConfig": {
+        "access": "public"
+    }
 }
