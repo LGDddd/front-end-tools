@@ -1,14 +1,12 @@
 <template>
-    <MyButton ref="ok" />
+    <MyButton />
+    <MyInput v-model="v" />
 </template>
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import { MyButton, type MyButtonInstance } from '@lgd_org/components'
 
-const ok = ref<MyButtonInstance>()
-
+const v = ref('2')
 onMounted(() => {
-    // console.log(ok.value?.getValue())
 })
 </script>
