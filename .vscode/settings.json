@@ -15,15 +15,10 @@
     ],
     "eslint.validate": [
         "javascript",
-        "javascriptreact",
         "typescript",
         "typescriptreact",
         "vue",
         "html",
-        "markdown",
-        "json",
-        "jsonc",
-        "yaml"
     ],
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
