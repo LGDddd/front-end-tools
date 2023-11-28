@@ -22,32 +22,33 @@ export default defineConfig({
             external: ['vue', 'element-plus', '@element-plus/icons-vue', /\.scss/],
             output: [
                 {
-                    format: 'es',
-                    entryFileNames: '[name].js',
-                    preserveModules: true,
-                    dir: 'es',
-                    preserveModulesRoot: 'src',
-                },
-                {
                     format: 'cjs',
-                    entryFileNames: '[name].js',
+                    entryFileNames: '[name].cjs',
                     preserveModules: true,
                     dir: 'lib',
                     preserveModulesRoot: 'src',
                     exports: 'named',
                 },
-                // {
-                //     format: 'umd',
-                //     exports: 'named',
-                //     name: 'LgdComponents',
-                //     entryFileNames: '[name].js',
-                //     preserveModules: false,
-                //     globals: {
-                //         'vue': 'Vue',
-                //         'element-plus': 'ElementPlus',
-                //         '@element-plus/icons-vue': 'ElementPlusIconsVue',
-                //     },
-                // },
+                {
+                    format: 'es',
+                    entryFileNames: '[name].mjs',
+                    preserveModules: true,
+                    dir: 'es',
+                    preserveModulesRoot: 'src',
+                },
+                {
+                    format: 'umd',
+                    exports: 'named',
+                    name: 'LgdComponents',
+                    entryFileNames: '[name].js',
+                    dir: 'umd',
+                    preserveModulesRoot: 'src',
+                    globals: {
+                        'vue': 'Vue',
+                        'element-plus': 'ElementPlus',
+                        '@element-plus/icons-vue': 'ElementPlusIconsVue',
+                    },
+                },
             ],
         },
         lib: {
