@@ -1,0 +1,8 @@
+{
+    "name": "@lgd_org/resolver",
+    "version": "1.0.0",
+    "description": "组件库自动导入插件",
+    "license": "ISC",
+    "main": "./index",
+    "types": "./index.d.ts"
+}

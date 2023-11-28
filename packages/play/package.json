@@ -3,10 +3,12 @@
     "version": "0.0.1",
     "private": false,
     "scripts": {
-        "dev": "vite --host"
+        "dev": "vite --host",
+        "build": "vite build"
     },
     "dependencies": {
-        "@lgd_org/components": "workspace:^1.0.0"
+        "@lgd_org/components": "workspace:^1.0.0",
+        "@lgd_org/resolver": "workspace:^1.0.0"
     },
     "devDependencies": {}
 }

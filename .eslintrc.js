@@ -1,5 +1,8 @@
 module.exports = {
-    extends: ['@antfu'],
+    extends: [
+        '@antfu',
+        '.eslintrc-auto-import.json',
+    ],
     rules: {
         // eslint 空格处理
         'indent': ['error', 4],
