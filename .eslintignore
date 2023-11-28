@@ -42,3 +42,5 @@ packages/components/es
 packages/components/lib
 packages/components/umd
 packages/components/types
+auto-imports.d.ts
+components.d.ts

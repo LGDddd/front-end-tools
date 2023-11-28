@@ -42,3 +42,5 @@ packages/components/es
 packages/components/lib
 packages/components/umd
 packages/components/types
+components.d.ts
+components.d.ts
