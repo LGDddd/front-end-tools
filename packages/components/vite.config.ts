@@ -2,15 +2,16 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import dts from 'vite-plugin-dts'
-import ElementPlus from 'unplugin-element-plus/vite'
+
+// import ElementPlus from 'unplugin-element-plus/vite'
 
 export default defineConfig({
     plugins: [
         vue(),
         vueJsx(),
-        ElementPlus({
-            useSource: true,
-        }),
+        // ElementPlus({
+        //     useSource: true,
+        // }),
         dts({
             outDir: ['types'],
             staticImport: true,
