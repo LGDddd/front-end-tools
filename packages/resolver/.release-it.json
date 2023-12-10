@@ -3,9 +3,9 @@
         "release": false
     },
     "git": {
-        "commitMessage": "chore: packages/components v${version}",
+        "commitMessage": "chore: packages/resolver v${version}",
         "commit": true,
-        "tagName": "@lgd_org/components@${version}",
+        "tagName": "@lgd_org/resolver@${version}",
         "tag": true,
         "push": false
     },
