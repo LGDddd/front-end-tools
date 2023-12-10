@@ -11,7 +11,8 @@
         "build:play": "pnpm run --filter ./packages/play build",
         "test:components": "pnpm run --filter ./packages/components test",
         "build:components": "pnpm run --filter ./packages/components build",
-        "publish:components": "pnpm run --filter ./packages/components release"
+        "publish:components": "pnpm run --filter ./packages/components release",
+        "publish:resolver": "pnpm run --filter ./packages/resolver release"
     },
     "dependencies": {
         "@element-plus/icons-vue": "^2.1.0",

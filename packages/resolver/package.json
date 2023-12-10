@@ -4,5 +4,15 @@
     "description": "组件库自动导入插件",
     "license": "ISC",
     "main": "./index",
-    "types": "./index.d.ts"
+    "types": "./index.d.ts",
+    "files": [
+        "index.js",
+        "index.d,ts"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "release": "release-it"
+    }
 }
